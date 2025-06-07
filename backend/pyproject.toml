@@ -1,0 +1,19 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Website cloning service with Browserbase SDK and Gemini 1.5 Pro"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "browserbase-sdk>=0.1.0",
+    "playwright>=1.40.0",
+    "beautifulsoup4>=4.12.2",
+    "google-generativeai>=0.4.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.4.2",
+    "pillow>=10.0.0",
+    "httpx>=0.24.1",
+    "lxml>=4.9.3",
+    "cssutils>=2.7.0",
+]
